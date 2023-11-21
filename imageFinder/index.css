@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbgclass{
+background-color: #0766AD;
+    
+}
+.input{
+   
+width: 40vw;
+background-color: #F3F3F3;
+border: none;
+outline: gray;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.container-c{
+    background-color: #0766AD;
+}
+.search-icon{
+    margin-left: -25px;
+    font-weight: bold;
+    color: gray;
+}
+button{
+    background-color: #29ADB2;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.btn button {
+    margin-right: 20px; /* Adjust the value as needed */
+    width: 15vw;
+}
+
+.photos-bg{
+    background-color: #C5E898;
+}
+.freeStock{
+    padding-top: 20px;
+}
+.check {
+    position: relative;
+  }
+
+  /* Added styles to center the download button within each image */
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+#res{width: 400px; height: 350px;}
+  .img-container:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  .download-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #0766AD);
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s;
+    opacity: 0; /* Initially hide the download button */
+  }
+
+  .img-container:hover .download-btn {
+    opacity: 1; /* Show the download button on hover */
+  }
+
+  .download-btn button {
+    
+    transition: transform 0.5s; /* Add transition effect for button movement */
+  }
+
+  .img-container:hover .download-btn button {
+    transform: translateY(300%); /* Move the button to its original position on hover */
+  }
+  #searchButton{
+    padding: 8px;
+    margin-bottom: 4px;
+  }
